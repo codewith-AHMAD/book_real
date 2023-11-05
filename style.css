@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.sidebar h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#book-list, #search-results {
+    padding: 0;
+}
+
+#book-list li, #search-results li {
+    margin: 10px 0;
+}
+
+#search-input {
+    width: 80%;
+}
+
+#search-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.real-life-stories {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.real-life-stories h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+.real-life-stories p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+    text-align: center;
+}
